@@ -13,6 +13,7 @@ public class Product {
         this.productCount = 0;
     }
 
+    /*gettery i settery*/
     public int getProductId() {
         return this.productId;
     }
@@ -22,16 +23,16 @@ public class Product {
     public int getProductCount() {
         return productCount;
     }
+    public String getProductName() {
+        return this.productName;
+    }
 
     public void addToProductCount() {
         this.productCount = productCount+1;
     }
 
-    public String getProductName() {
-        return this.productName;
-    }
 
-    //nadpisywanie metod hasCode i equals
+    //nadpisywanie metod hashCode i equals
     @Override
     public int hashCode() {
         return super.hashCode();
@@ -45,7 +46,7 @@ public class Product {
     //jak ma sie wypisywac zbior produktow?
     @Override
     public String toString() {
-        //kazdy produkt bedzie wypisywac sie jako jego nazwa
+        //kazdy produkt bedzie wypisywac sie jako jego nazwa i liczba szt
         return productName + "   " + productCount + "szt. ";
     }
 }
