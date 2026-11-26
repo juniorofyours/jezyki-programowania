@@ -1,3 +1,8 @@
+package Wspolne;
+
+import LaboratoriumDrugie.ZajeciaDrugie;
+import LaboratoriumTrzecie.ZajeciaTrzecie;
+
 import java.util.Scanner;
 
 public class Menu {
@@ -11,11 +16,11 @@ public class Menu {
     public void runMenu() {
         while (true) {
             System.out.println("Prosze wybrac numer zajec:\n");
-            System.out.printf("%-30s|", "Zajecia");
+            System.out.printf("%-30s|", "Wspolne.Zajecia");
             System.out.print("Cyfra, aby je wybrac:\n");
-            System.out.printf("%-30s|", "Zajecia 2 - kolekcje");
+            System.out.printf("%-30s|", "Wspolne.Zajecia 2 - kolekcje");
             System.out.print("1\n");
-            System.out.printf("%-30s|", "Zajecia 3 - GUI ze SWING");
+            System.out.printf("%-30s|", "Wspolne.Zajecia 3 - GUI ze SWING");
             System.out.print("2\n");
             System.out.printf("%-30s|", "Koniec wybierania");
             System.out.print("0\n");

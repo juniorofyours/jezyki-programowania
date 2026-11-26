@@ -1,3 +1,5 @@
+package Wspolne;
+
 class SimulationStart {
     public SimulationStart() {
     }

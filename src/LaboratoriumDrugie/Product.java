@@ -1,4 +1,4 @@
-import java.util.HashSet;
+package LaboratoriumDrugie;
 
 public class Product {
     private int productId;
