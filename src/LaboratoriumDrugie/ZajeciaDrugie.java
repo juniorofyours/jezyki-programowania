@@ -1,9 +1,13 @@
+package LaboratoriumDrugie;
+
+import Wspolne.Zajecia;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.TreeMap;
 import java.util.Comparator;
 
-public class ZajeciaDrugie implements Zajecia{
+public class ZajeciaDrugie implements Zajecia {
     Scanner scanner = new Scanner(System.in);
     Scanner pause = new Scanner(System.in); //dla pauz w kompilatorze
     private int menu=-1;
@@ -12,7 +16,7 @@ public class ZajeciaDrugie implements Zajecia{
     @Override
     public void menuTychZajec() {
         while (menu != 0) {
-            System.out.println("Zajecia 2.\n Prosze wybrac numer zadania:\n");
+            System.out.println("Wspolne.Zajecia 2.\n Prosze wybrac numer zadania:\n");
             System.out.printf("%-30s|", "Zadanie.");
             System.out.print("Cyfra, aby je wybrac:\n");
             System.out.printf("%-30s|", "Zadanie 4. - HashSet.");
